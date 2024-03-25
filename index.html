@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="./styles/main.css" />
   </head>
   <body class="bg-secondray">
-    <header class="shadow-xl bg-secondray">
+    <header class="shadow-xl bg-secondray sticky top-0 z-10">
       <div class="container mx-auto">
         <div class="sm:flex justify-between py-3 items-center">
           <div class="logo text-center border-b sm:border-none pb-3 sm:pb-0">
@@ -24,22 +24,30 @@
             <ul class="sm:flex text-xl text-center">
               <li><a href="#" class="p-3 text-[#f65023]">Home</a></li>
               <li>
-                <a href="#" class="p-3 text-white hover:text-[#f65023]"
+                <a
+                  href="#"
+                  class="p-3 text-white hover:text-[#f65023] transition"
                   >Product</a
                 >
               </li>
               <li>
-                <a href="#" class="p-3 text-white hover:text-[#f65023]"
+                <a
+                  href="#"
+                  class="p-3 text-white hover:text-[#f65023] transition"
                   >Blogs</a
                 >
               </li>
               <li>
-                <a href="#" class="p-3 text-white hover:text-[#f65023]"
+                <a
+                  href="#"
+                  class="p-3 text-white hover:text-[#f65023] transition"
                   >Portfolio</a
                 >
               </li>
               <li>
-                <a href="#" class="pl-3 text-white hover:text-[#f65023]"
+                <a
+                  href="#"
+                  class="pl-3 text-white hover:text-[#f65023] transition"
                   >Contact</a
                 >
               </li>
@@ -58,7 +66,7 @@
                 Programming
               </h1>
               <button
-                class="bg-indigo-900 hover:bg-indigo-950 shadow-xl px-7 py-3 rounded-full text-xl"
+                class="bg-indigo-900 transition hover:bg-indigo-950 shadow-xl px-7 py-3 rounded-full text-xl"
               >
                 Join: Programming Shikhbo Team
                 <svg
@@ -83,6 +91,121 @@
                 src="./images/hero-img.png"
                 alt="hero image"
               />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="services py-10">
+        <div class="container mx-auto">
+          <h2 class="text-center text-3xl text-white mb-12">Our Services</h2>
+          <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div
+              class="item bg-gray-800 p-8 rounded-lg border-4 border-[#1f2937] hover:border-indigo-700 cursor-pointer transition"
+            >
+              <img
+                class="w-1/2 mx-auto"
+                src="./images/frontEnd.png"
+                alt="front end development"
+              />
+              <div class="text-center text-white">
+                <h4 class="text-lg underline underline-offset-4 my-4">
+                  Front-end Development
+                </h4>
+                <p>
+                  Lorem ipsum, dolor sit consectetur adipisicing elit. Minus,
+                  autem?
+                </p>
+              </div>
+            </div>
+            <div
+              class="bg-gray-800 p-8 rounded-lg border-4 border-[#1f2937] hover:border-indigo-700 cursor-pointer transition"
+            >
+              <img
+                class="w-1/2 mx-auto"
+                src="./images/backEnd.png"
+                alt="back end development"
+              />
+              <div class="text-center text-white">
+                <h4 class="text-lg underline underline-offset-4 my-4">
+                  Back-end Development
+                </h4>
+                <p>
+                  Lorem ipsum, dolor sit consectetur adipisicing elit. Minus,
+                  autem?
+                </p>
+              </div>
+            </div>
+            <div
+              class="item bg-gray-800 p-8 rounded-lg border-4 border-[#1f2937] hover:border-indigo-700 cursor-pointer transition"
+            >
+              <img
+                class="w-1/2 mx-auto"
+                src="./images/javascript.png"
+                alt="JavaSrcipt development"
+              />
+              <div class="text-center text-white">
+                <h4 class="text-lg underline underline-offset-4 my-4">
+                  JavaScript Development
+                </h4>
+                <p>
+                  Lorem ipsum, dolor sit consectetur adipisicing elit. Minus,
+                  autem?
+                </p>
+              </div>
+            </div>
+            <div
+              class="bg-gray-800 p-8 rounded-lg border-4 border-[#1f2937] hover:border-indigo-700 cursor-pointer transition"
+            >
+              <img
+                class="w-1/2 mx-auto"
+                src="./images/frontEnd.png"
+                alt="next.js development"
+              />
+              <div class="text-center text-white">
+                <h4 class="text-lg underline underline-offset-4 my-4">
+                  Next.js Development
+                </h4>
+                <p>
+                  Lorem ipsum, dolor sit consectetur adipisicing elit. Minus,
+                  autem?
+                </p>
+              </div>
+            </div>
+            <div
+              class="item bg-gray-800 p-8 rounded-lg border-4 border-[#1f2937] hover:border-indigo-700 cursor-pointer transition"
+            >
+              <img
+                class="w-1/3 mx-auto"
+                src="./images/react.86c8d9eba03e29814d2a.png"
+                alt="react.js development"
+              />
+              <div class="text-center text-white">
+                <h4 class="text-lg underline underline-offset-4 my-4">
+                  React.js Development
+                </h4>
+                <p>
+                  Lorem ipsum, dolor sit consectetur adipisicing elit. Minus,
+                  autem?
+                </p>
+              </div>
+            </div>
+            <div
+              class="bg-gray-800 p-8 rounded-lg border-4 border-[#1f2937] hover:border-indigo-700 cursor-pointer transition"
+            >
+              <img
+                class="w-1/2 mx-auto"
+                src="./images/backEnd.png"
+                alt="mongoDB database"
+              />
+              <div class="text-center text-white">
+                <h4 class="text-lg underline underline-offset-4 my-4">
+                  MongoDB Database
+                </h4>
+                <p>
+                  Lorem ipsum, dolor sit consectetur adipisicing elit. Minus,
+                  autem?
+                </p>
+              </div>
             </div>
           </div>
         </div>
